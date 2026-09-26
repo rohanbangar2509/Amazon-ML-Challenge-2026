@@ -1,25 +1,96 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.py[cod]
+*.so
+*.egg
+*.egg-info/
+.Python
+
+# Virtual environments
 .venv/
 venv/
-.env
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# Large datasets
+# Environment / secrets
+.env
+.envrc
+
+# =========================
+# Large Amazon ML Challenge data
+# =========================
 dataset/
 *.zip
 
+# =========================
 # Generated databases
+# =========================
 *.duckdb
 *.sqlite
 *.sqlite3
 *.db
 
+# =========================
 # Generated outputs
+# =========================
 output/
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+develop-eggs/
+downloads/
+.eggs/
+parts/
+sdist/
+wheels/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# =========================
+# Type checkers / linters
+# =========================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =========================
 # OS
+# =========================
 .DS_Store
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+tempCodeRunnerFile.py
