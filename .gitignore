@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Large datasets
+dataset/
+*.zip
+
+# Generated databases
+*.duckdb
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated outputs
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
